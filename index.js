@@ -22,7 +22,8 @@ function play(question, answer) {
 }
 
 console.log("Start your answers with first latter capital")
-var asked =[{
+var asked =[
+  {
   question: "Do you live in India? ",
   answer: "Yes"
 }, {   
@@ -37,6 +38,9 @@ answer: "Narendra Modi"
 },{
   question: "Is Pandit Jawaharlal Nehru was first prime minister of India? ",
 answer: "Yes"
+},{
+  question: "How much people live in India? options(100cr or above 130cr) ",
+answer: "130cr"
 }
 
 ];
@@ -58,7 +62,7 @@ var highscores =[{
 for(var i=0; i<highscores.length; i++) 
 console.log(highscores[i].name , "total score was: " + highscores[i].score);  
 
-console.log("Gave me your Highscore on Whatsapp so I will update highscore list ")
+console.log("Gave me your Highscore screenshoot on Whatsapp so I will update highscore list ")
 
 
 
